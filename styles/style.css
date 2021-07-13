@@ -14,25 +14,28 @@ main{
 /* header style */
 .header{
     background-color:#2D25A0;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 50px;
 }
-h1{
+.header h1{
     font-size: 64px;
     font-weight: 700;
     color: white;
+    margin: 0;
+    margin-bottom: 27px;
 }
 .header-left{
-    margin-left: 200px;
-}
-.header-left .watch-btn{
-    background-color: #E02C6D;
-    padding: 10px 24px 10px 24px;
+    width: 485px;
+    margin-left: 350px;
+    margin-bottom: 0;
 }
 .watch-btn{
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -44,6 +47,7 @@ h1{
 .header-right img{
     width: 556px;
     height: 438px;
+    margin-left: 80px;
 }
 
 
@@ -83,4 +87,34 @@ h1{
     color: #6C6C6C;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* section highkights styles */
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 167px;
+}
+.highlight-left{
+    width: 470px;
+    margin-left: 50px;
+}
+.highlight-left h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.highlight-left p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+}
+.highlight-right img{
+    width: 567px;
+    height: 427px;
+    margin-left: 50px;
 }
