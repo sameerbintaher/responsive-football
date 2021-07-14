@@ -52,6 +52,7 @@ main{
 }
 .fa-arrow-right{
     margin-left: 8px;
+    color: #ffffff;
 }
 
 
@@ -68,6 +69,7 @@ main{
 }
 .player{
     width: 330px;
+    /* height: 500px; */
     background-color: #ffffff;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -119,6 +121,13 @@ main{
 }
 .highlight-right img{
     width: 100%;
+}
+
+/* boonus part style start */
+.bonus-part h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
 }
 
 /* footer style */
