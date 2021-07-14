@@ -40,6 +40,10 @@ main{
     width: 556px;
     height: 438px;
     margin-left: 160px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.heading-right img:hover{
+    transform: rotate(360deg);
 }
 
 .watch-btn{
