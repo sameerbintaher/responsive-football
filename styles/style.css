@@ -129,6 +129,12 @@ main{
     font-weight: 700;
     margin-top: 50px;
 }
+.videos{
+    display: flex;
+}
+.video{
+    margin-left: 10px;
+}
 
 /* footer style */
 .items{
@@ -208,5 +214,20 @@ main{
         margin-top: 50px;
         margin-bottom: 100px;
         width: 270px;
+    }
+
+    .bonus-part{
+        width: 100%;
+    }
+    .bonus-part .videos{
+        flex-direction: column;
+    }
+    .bonus-part h1{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .bonus-part iframe{
+        width: 95%;
+        margin-left: 10px;
     }
 }
