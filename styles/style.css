@@ -20,6 +20,16 @@ main{
     background: #2D25A0;
     width: 100%;
     padding: 86px;
+    animation-name: blink;
+    animation-duration: 5s;
+}
+@keyframes blink{
+    from {
+        background-color: black;
+    }
+    to{
+        background-color:lightseagreen;
+    }
 }
 .heading-left{
     width: 485px;
